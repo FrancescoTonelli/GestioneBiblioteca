@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GestioneBiblioteca"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="1159.016">
     <Grid>
         <Label Content="Elenco Libri:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <ListBox x:Name="lstLibri" HorizontalAlignment="Left" Height="340" VerticalAlignment="Top" Width="298" Margin="10,41,0,0"/>
@@ -21,6 +21,16 @@
         <Button x:Name="btnCrea" Content="Crea" HorizontalAlignment="Left" Margin="695,207,0,0" VerticalAlignment="Top" Width="75" Click="btnCrea_Click"/>
         <Label Content="N libri:" HorizontalAlignment="Left" Margin="10,386,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblN" Content="" HorizontalAlignment="Left" Margin="60,386,0,0" VerticalAlignment="Top" Width="40"/>
+        <Label Content="Inserisci un titolo:" HorizontalAlignment="Left" Margin="313,257,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTitolo" HorizontalAlignment="Left" Height="23" Margin="421,261,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnCercaTitolo" Content="Cerca" HorizontalAlignment="Left" Margin="570,264,0,0" VerticalAlignment="Top" Width="75" Click="btnCercaTitolo_Click"/>
+        <Label Content="Posizione:" HorizontalAlignment="Left" Margin="329,299,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblPosTitolo" Content="" HorizontalAlignment="Left" Margin="396,299,0,0" VerticalAlignment="Top" Width="78"/>
+        <Label Content="Inserisci un autore:" HorizontalAlignment="Left" Margin="736,257,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTitolo_Copy" HorizontalAlignment="Left" Height="23" Margin="844,261,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnCercaAutore" Content="Cerca" HorizontalAlignment="Left" Margin="993,264,0,0" VerticalAlignment="Top" Width="75" Click="btnCercaAutore_Click"/>
+        <Label Content="Titoli:" HorizontalAlignment="Left" Margin="752,299,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstLibriAutore" HorizontalAlignment="Left" Height="100" Margin="826,299,0,0" VerticalAlignment="Top" Width="213"/>
 
     </Grid>
 </Window>
