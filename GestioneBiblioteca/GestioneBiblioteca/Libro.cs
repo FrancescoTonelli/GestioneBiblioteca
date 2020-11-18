@@ -115,6 +115,7 @@ namespace GestioneBiblioteca
 
         public int ReadingTime()
         {
+
             // se il valore restituito =3 il tempo di letture è superiore alle 2 ore
             if (NumeroPagine < 100)
                 return 1;
@@ -123,6 +124,11 @@ namespace GestioneBiblioteca
             else
                 return 3;
             // se ci sono per esempio 500 pagine il valore restituito sarà 3 
+        }
+
+        public override string ToString()
+        {
+            return $"{Titolo}|{Autore}|{NumeroPagine}|{AnnoPubblicazione}|{Editore}";
         }
     }
 }
