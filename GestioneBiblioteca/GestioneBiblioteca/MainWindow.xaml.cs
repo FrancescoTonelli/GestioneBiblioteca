@@ -24,5 +24,22 @@ namespace GestioneBiblioteca
         {
             InitializeComponent();
         }
+
+        public void InizializzaListaLibri()
+        {
+
+        }
+
+        private void btnCrea_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                string l = txtCrea.Text;
+                string[] line = l.Split('/');
+            }catch(Exception ex)
+            {
+                MessageBox.Show("Impossibile creare il libro");
+            }
+        }
     }
 }
