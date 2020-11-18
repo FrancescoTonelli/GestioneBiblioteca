@@ -1,5 +1,0 @@
-C:\Users\cristofer.napolitano\Desktop\biblioteca\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\obj\Debug\GestioneBiblioteca.csprojAssemblyReference.cache
-C:\Users\cristofer.napolitano\Desktop\biblioteca\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\obj\Debug\MainWindow.g.cs
-C:\Users\cristofer.napolitano\Desktop\biblioteca\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\obj\Debug\App.g.cs
-C:\Users\cristofer.napolitano\Desktop\biblioteca\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\obj\Debug\GestioneBiblioteca_MarkupCompile.cache
-C:\Users\cristofer.napolitano\Desktop\biblioteca\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\obj\Debug\GestioneBiblioteca_MarkupCompile.lref
