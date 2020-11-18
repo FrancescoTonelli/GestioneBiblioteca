@@ -118,5 +118,23 @@ namespace GestioneBiblioteca
                 }
             }
         }
+
+        public List<Libro> RicercaAutore(string autore)
+        {
+            List<Libro> libri = new List<Libro>();
+            for(int i = 0; i < Libri.Count; i++)
+            {
+                if(Libri[i].Autore == autore)
+                {
+                    libri.Add(Libri[i]);
+                }
+            }
+            return libri;
+        }
+
+        public int NumeroLibri()
+        {
+            return Libri.Count();
+        }
     }
 }
