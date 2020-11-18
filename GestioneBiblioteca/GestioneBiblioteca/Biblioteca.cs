@@ -8,9 +8,20 @@ namespace GestioneBiblioteca
 {
     public class Biblioteca
     {
-        public Biblioteca()
+        public Biblioteca(string nome, string indirizzo, int apertura, int chiusura, List<Libro> libri)
         {
-
+            Nome = nome;
+            Indirizzo = indirizzo;
+            if (apertura < chiusura)
+            {
+                Apertuta = apertura;
+                Chiusura = chiusura;
+            }
+            else
+            {
+                throw new Exception("Apertura e chiusura non validi");
+            }
+            Libri = libri;
         }
 
         private string _nome;
@@ -89,6 +100,22 @@ namespace GestioneBiblioteca
                 if (value.Count < 1)
                     throw new Exception("Lista di libri non valida, deve essere presente alemno un libro");
                 _libri = value;
+            }
+        }
+
+        public void AddLibro(Libro libro)
+        {
+            Libri.Add(libro);
+        }
+
+        public Libro RicercaTitolo(string titolo)
+        {
+            for(int i = 0; i < Libri.Count; i++)
+            {
+                if(Libri[i].Titolo == titolo)
+                {
+                    return Libri[i];
+                }
             }
         }
     }
