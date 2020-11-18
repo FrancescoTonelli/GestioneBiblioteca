@@ -113,6 +113,16 @@ namespace GestioneBiblioteca
             }
         }
 
-        
+        public int ReadingTime()
+        {
+            // se il valore restituito =3 il tempo di letture è superiore alle 2 ore
+            if (NumeroPagine < 100)
+                return 1;
+            if (NumeroPagine >= 100 && NumeroPagine < 200)
+                return 2;
+            else
+                return 3;
+            // se ci sono per esempio 500 pagine il valore restituito sarà 3 
+        }
     }
 }
