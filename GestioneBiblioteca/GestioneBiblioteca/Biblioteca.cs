@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GestioneBiblioteca
 {
-    public class Biblioteca
+    class Biblioteca
     {
         public Biblioteca(string nome, string indirizzo, int apertura, int chiusura, List<Libro> libri)
         {
@@ -117,6 +117,7 @@ namespace GestioneBiblioteca
                     return Libri[i];
                 }
             }
+            throw new Exception("Non ci sono libri con quel titolo");
         }
 
         public List<Libro> RicercaAutore(string autore)

@@ -1,0 +1,15 @@
+C:\Users\francesco.tonelli\Desktop\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\bin\Debug\GestioneBiblioteca.exe.config
+C:\Users\francesco.tonelli\Desktop\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\bin\Debug\GestioneBiblioteca.exe
+C:\Users\francesco.tonelli\Desktop\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\bin\Debug\GestioneBiblioteca.pdb
+C:\Users\francesco.tonelli\Desktop\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\obj\Debug\GestioneBiblioteca.csprojAssemblyReference.cache
+C:\Users\francesco.tonelli\Desktop\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\obj\Debug\MainWindow.g.cs
+C:\Users\francesco.tonelli\Desktop\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\obj\Debug\App.g.cs
+C:\Users\francesco.tonelli\Desktop\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\obj\Debug\GestioneBiblioteca_MarkupCompile.cache
+C:\Users\francesco.tonelli\Desktop\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\obj\Debug\GestioneBiblioteca_MarkupCompile.lref
+C:\Users\francesco.tonelli\Desktop\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\obj\Debug\MainWindow.baml
+C:\Users\francesco.tonelli\Desktop\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\obj\Debug\GestioneBiblioteca.g.resources
+C:\Users\francesco.tonelli\Desktop\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\obj\Debug\GestioneBiblioteca.Properties.Resources.resources
+C:\Users\francesco.tonelli\Desktop\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\obj\Debug\GestioneBiblioteca.csproj.GenerateResource.cache
+C:\Users\francesco.tonelli\Desktop\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\obj\Debug\GestioneBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\francesco.tonelli\Desktop\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\obj\Debug\GestioneBiblioteca.exe
+C:\Users\francesco.tonelli\Desktop\GestioneBiblioteca\GestioneBiblioteca\GestioneBiblioteca\obj\Debug\GestioneBiblioteca.pdb
