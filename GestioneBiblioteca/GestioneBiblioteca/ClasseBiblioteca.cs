@@ -10,8 +10,6 @@ namespace GestioneBiblioteca
 
     public class ClasseBiblioteca(string nome, string indirizzo, int apertura, int chiusura, List<Libro> libri)
     {
-        Nome = nome;
-        Indirizzo = indirizzo;
         if(Apertura<Chiusura)
         {
            Apertura = apertura;
@@ -21,6 +19,9 @@ namespace GestioneBiblioteca
         {
             throw new Exception(" Apertura e chiusura non validi");
         }
+        Nome = nome;
+        Indirizzo = indirizzo;
+        Libri = libri
 
    }
 
